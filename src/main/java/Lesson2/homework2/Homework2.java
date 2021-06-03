@@ -1,4 +1,4 @@
-package Lesson2.Homework2;
+package Lesson2.homework2;
 
 import java.util.Arrays;
 
@@ -64,7 +64,6 @@ public class Homework2 {
             System.out.println();
         }
     }
-
     /* Задание № 5 ** Задать одномерный массив и найти в нем минимальный и максимальный элементы
     (без помощи интернета);*/
     public static int maxValue(int[] arr5) {

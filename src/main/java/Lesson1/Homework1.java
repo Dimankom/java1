@@ -1,5 +1,8 @@
-public class NewClass {
-    /*1.Создать пустой проект в IntelliJIDEA и прописать метод main().*/
+package Lesson1;
+
+public class Homework1 {
+    //    Добавил еще коммент и делаю Commit
+    /*1.Создать пустой проект в IntelliJIDEA и прописать метод Lesson1.main().*/
     public static void main(String[] args) {
         /*2. Создать переменные всех пройденных типов данных и инициализировать их значения.*/
         byte byteX = 127; // это максимальное число! и в минус до -128 возможно
@@ -16,6 +19,7 @@ public class NewClass {
 
         boolean result = isRangeSum(17, 8); // можно подставить любые цифры
         System.out.println(result);
+
     }
 
     /*3. Написать метод, вычисляющий выражение a * (b + (c / d)) и возвращающий результат,
@@ -61,5 +65,6 @@ public class NewClass {
     public static void helloName(String name) {
         System.out.println("Привет" + name + "!");
     }
+
 
 }
